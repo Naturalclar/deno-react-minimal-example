@@ -6,9 +6,9 @@ import { App } from './app.tsx'
 export const str = ReactDOMServer.renderToString(<App />);
 
 const body = new TextEncoder().encode(str);
-const s = serve(":6796");
+const s = serve(":8080");
 window.onload = async () => {
-  console.log("http://localhost:6796/");
+  console.log("http://localhost:8080/");
   for await (const req of s) {
     req.respond({ body });
   }

@@ -8,7 +8,7 @@ a minimal example of `Deno` server with `React`
 deno ./server.tsx
 ```
 
-then access `localhost:6796` in your browser
+then access `localhost:8080` in your browser
 
 ## with Docker Compose
 
@@ -18,4 +18,4 @@ run following command in your terminal
 docker-compose up
 ```
 
-then access `localhost:6796` in your browser
+then access `localhost:8080` in your browser

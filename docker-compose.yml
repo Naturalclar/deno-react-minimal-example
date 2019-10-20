@@ -3,4 +3,4 @@ services:
   deno:
     build: .
     ports:
-    - "6796:6796"
+    - "8080:8080"
