@@ -1,5 +1,5 @@
 import React from 'https://dev.jspm.io/react'
-import { serve } from "https://deno.land/std@v0.19.0/http/server.ts";
+import { serve } from "https://deno.land/std@v0.58.0/http/server.ts";
 import ReactDOMServer from 'https://dev.jspm.io/react-dom/server'
 import { App } from './app.tsx'
 
